@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Atharva Patil</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: black;
+            background-color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 10px;
+            background-color: black;
+            color: white;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+
+        header a {
+            margin: 0 10px;
+            font-size: 1.5em;
+            color: white;
+            text-decoration: none;
+        }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            color: black;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid black;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            color: black;
+        }
+
+        ul li {
+            margin-bottom: 8px;
+        }
+
+        .project-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .project-title a {
+            font-size: 0.9em;
+            color: blue;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        .project-title a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 10px;
+            background-color: black;
+            color: white;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header img {
+                width: 100px;
+                height: 100px;
+            }
+
+            header h1 {
+                font-size: 2em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Atharva_Patil.jpg" alt="Atharva Patil's Photo">
+        <h1>Atharva Patil</h1>
+        <p>
+            <a href="https://www.linkedin.com/in/atharva-patil-2449461a0" target="_blank">LinkedIn</a> |
+            <a href="mailto:atharvapvt000@gmail.com">Email</a>
+        </p>
+    </header>
+        <section id="about">
+        <h2>About Me</h2>
+        <p>I am Atharva Patil, currently pursuing my MTech in Biomedical Engineering (Program: Medical Device Innovation) at IIT Hyderabad. I completed my B.E. in Instrumentation Engineering from VESIT, Mumbai. Before my MTech, I worked as a Machine Learning Engineer at Quantiphi, where I contributed to projects across various domains, including Healthcare & Life Sciences, Manufacturing, and Finance.
+
+My skillset spans multiple engineering domains, including AI, Signal Processing, Embedded Systems, Control Systems, Product Design, and Medical Imaging. I have honed these skills through both academic coursework and project work. My interests lie in interdisciplinary research, and I am passionate about solving complex problems through innovative approaches.
+
+Currently, I am working on developing a portable instrument to potentially detect small tumors in the breast. This project involves tackling image reconstruction challenges in impedance imaging using Physics-Informed Neural Networks and designing a mechanical inflation system for tissue strength measurement. Also, I'll be taking courses in Soft Robotics and Materials Science in my final semester to support this project.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming:  Python, Dart, Java, HTML, CSS, PHP, SQL, Embedded C</li>
+            <li>AI: Image Classification, Object Detection, Image Segmentation, Scientific Machine Learning, Generative 
+AI, NLP</li>
+            <li>Bioinformatics Tools: Amber, Gromacs</li>
+            <li>App Development: Flutter, Cordova</li>
+            <li>Cloud Platforms: GCP, AWS (Sagemaker, EC2, S3, Beanstalk)</li>
+            <li>Embedded Systems: Arduino, Teensey, STM32, 8051 Microcontroller</li>
+            <li>Other Tools: KubeFlow, MLFlow, DVC, Git, Docker, Flask, Selenium, LabVIEW, PLC, SCADA, SolidWorks</li>
+            <li>Certificates: <a href="https://www.credential.net/81bdc2b2-4c34-41e5-bf5f-1443e7c4cbb7?key=a69a988233a3e7336f8516bb4fc971266372e215fe8d81b0fe62dbff9aa80567" target="_blank">Associate Cloud Engineer (Google Cloud)</a>, <a href="https://www.udemy.com/certificate/UC-fae7130c-3953-4155-8b87-b2b8b2bfaa98/" target="_blank">Data Science and Machine Learning Bootcamp (Udemy)</a></li>
+        </ul>
+    </section>
+
+    <section id="work">
+        <h2>Work Experience</h2>
+        <img class="logo" src="quant1.png" alt="Quantiphi Logo" style="width: 200px; height: 200px; border-radius: 10px;>
+        <div class="work-item">
+            <p><strong>Machine Learning Engineer</strong>, Quantiphi Analytics (Aug 2022 - Jul 2023)</p>
+            <ul>
+                <li>
+                    <strong>Protein Structure Modeling - Healthcare R&D:</strong>
+                    This project was a collaborative effort with an Australian pharmaceutical firm, aimed at predicting and modeling the 3D structure of monomers and multimers. My contributions primarily focused on feature extraction and the development of the preprocessing pipeline. The pipeline was designed to process input data, which is then used to query various databases like UniProt and PDB to identify conserved regions and generate pairwise representations. This was achieved using row-wise and column-wise attention mechanisms, which assign weights to each region in the sequence, forming the Initial Multi-Sequence Alignment (MSA) step. The MSA was further refined as the model was trained.
+
+The core model used in this project was the AlphaFold model, which incorporates multiple Evoformer (or transformer) blocks. These blocks leverage attention mechanisms to compute the outer product of MSA and pairwise representations. In the final stage, a structure module utilizes mathematical geometry concepts to predict the stable 3D structure of the protein.
+
+To avoid overfitting and enhance the model’s performance, I implemented the Noisy Student distillation method, which helps generate new data. I applied bioinformatics tools such as Amber and GROMACS to assess the stability of the predicted structures, utilizing the MMPBSA method to calculate the potential energy between interacting residues.
+
+I also enhanced the search operations in the preprocessing stage by implementing improved versions of Jackhammer and HHblits. One of the most challenging aspects of this project was predicting the structure of cyclic peptides. I addressed this by modifying the positional encodings in the Evoformer block using AFcycDesign offset and cyclic offset codes, which enabled accurate modeling of these unique peptide structures.
+                </li>
+                <li>
+                    <strong>Purchase Order and Invoice Verification:</strong>
+                    In this project, I developed an in-house software solution for a leading computer hardware manufacturing company to streamline the manual verification process of Purchase Orders (POs) and invoices. My responsibilities included annotating and writing code for the preprocessing and post-processing of PDF files.
+
+The key fields extracted from the documents included PO Number, Vendor Name, Invoice Number, Invoice Name, Invoice Currency Symbol, and various amounts from tables. To achieve this, I used the GCP Vision API and Document AI form parsers. These tools were chosen due to the specific structure of the invoices generated by the company, and by leveraging both, we were able to extract the required fields accurately.
+
+I also collaborated with the Senior ML Engineer to gain a deeper understanding of AutoML in GCP. This was used to classify documents into invoices and POs. The extracted fields were then further processed during the post-processing stage by updating the JSON files, which contained the extracted information. The post-processing was dynamic, as the requirements changed based on client specifications.
+
+One of the challenges encountered was the need for translation of documents from one language to another, which was addressed using GCP NLP APIs. Additionally, we found that the European and U.S. conventions for writing costs were different. To resolve this, we made modifications using Regex based on currency templates to adjust the formatting accordingly.
+                </li>
+                <li>
+                    <strong>Machine Bores Defects Detection:</strong>
+                    
+In this project, I developed an object detection model using Visual Inspection AI (VIAI) to detect various types of defects in machine bores for a train engine manufacturing company. This was a proof-of-concept (POC) project, and I was assigned the task of building the model in the final stages. The model was developed on Google Cloud Platform (GCP) using Vertex AI and Kubeflow pipelines, ensuring seamless deployment and scalability.
+
+As part of this project, I gained hands-on experience with several key technologies, including DVC (Data Version Control), Kubeflow, Docker, and Google Container Registry (GCR). I also learned how to prepare and pipeline the model, and deploy it on GCP, ensuring efficient scaling and management.
+
+Additionally, I familiarized myself with Visual Inspection AI in GCP, which helped in the development of the model for detecting defects in machine bores. This project not only enhanced my technical skills in cloud deployment and machine learning model development but also provided valuable insight into the practical applications of Visual Inspection AI for quality control in manufacturing.
+                </li>
+                              <li>
+                    <strong>Insurance Document Sorting System:</strong>
+                    
+In this proof-of-concept (POC) project, I automated the page sorting process for insurance documents for a Fortune 500 client. I collaborated closely with both the client team and the Google team, who provided the project to my team. This project ran in parallel with the machine bores defect detection project mentioned above.
+
+My primary task was to pre-process the PDF pages by converting them into single images, applying custom image enhancement algorithms like CLAHE (Contrast Limited Adaptive Histogram Equalization), and then converting the enhanced images back into PDFs. While GCP provided some enhancement tools, I found that the results from those tools were not satisfactory, which led me to develop my own solution for improving image quality.
+
+I also wrote code to rotate the PDF pages at different angles to ensure proper orientation. To extract essential fields such as the report date, RP Id, sub-page numbers, and various page formats, I used the GCP Vision API. This allowed me to efficiently extract the necessary information for further processing.
+
+One of the key challenges was developing a custom sorting algorithm based on client-specific rules for classifying page numbers. For example, page numbers could be formatted as "Page 1 of 1", "P. 1 of 1", "Page 1", etc. I wrote Python code to handle these different formats and set preferences for selecting the correct page number when multiple formats were present, based on other extracted fields. This ensured that the pages were sorted and organized according to the client's unique requirements.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+
+
+<div class="project-item">
+    <img class="logo" src="proto.jpg" alt="Fetal Brain Segmentation" style="width: 400px; height: 400px; border-radius: 10px;">
+    <div class="project-title">
+        <strong>Portable Breast Examination Device</strong>
+        <!-- <a href="https://github.com/atharvapatil000/yoga-pose" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">GitHub</a> -->
+    </div>
+</div>
+            <p>
+                I am working on a project involving the development of a portable breast examination device. For this, I am using the Teensey 4.1 microcontroller and have designed circuits for a constant current source and signal conditioning to accurately detect boundary voltages of a breast phantom for impedance value calculations. To address challenges in impedance image reconstruction, I am leveraging Physics-Informed Neural Networks (PINNs) to improve accuracy. Additionally, I am utilizing the Swin-UNet architecture to refine reconstructed images and achieve precise segmentation of small tumors deep within the tissue.
+
+I am also developing a mechanical inflation system that uses calibrated pressure-sensing material to measure tissue elasticity (Young's modulus), enabling the differentiation between healthy and potentially malignant tissues in the breast phantom. This multimodal approach aims to facilitate at-home tumor detection. Due to the potential patent filing, I am unable to disclose further details about the project at this time.
+            </p>
+        </div>
+
+<div class="project-item">
+    <img class="logo" src="yoga.png" alt="Fetal Brain Segmentation" style="width: 400px; height: auto; border-radius: 10px;">
+    <div class="project-title">
+        <strong>Yoga Pose Recognition</strong>
+        <a href="https://github.com/atharvapatil000/yoga-pose" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">GitHub</a>
+    </div>
+</div>
+            <p>
+                This project is part of the Deep Learning course under Prof. Summona Channapayya in AI. The primary objective is to develop a deep learning-based system for recognizing and classifying various yoga poses from input images or video streams.
+
+To start, I performed an in-depth Exploratory Data Analysis (EDA) on the dataset to understand class distribution, identify potential data imbalances, and analyze the diversity of the images, including variations in pose orientations, lighting conditions, and background complexities. This analysis was crucial for determining the appropriate preprocessing steps. Subsequently, I applied data augmentation techniques like rotation, scaling, and flipping to increase the robustness of the model and ensure better generalization across various poses and environments.
+
+For pose detection, I utilized the MoveNet model, a state-of-the-art architecture designed for efficient keypoint extraction. MoveNet identifies key body landmarks in real time, providing the input necessary for pose classification. I then processed the keypoints to generate pose embeddings, which were fed into a custom classifier to distinguish between different yoga poses.
+
+In the next stage, I plan to further refine the model by incorporating more advanced architectures like ResNet and Vision Transformer (ViT). These models will be used to classify 82 distinct yoga poses, accounting for variations in backgrounds, angles, and human body shapes. The aim is to create a robust, real-time system that can assist yoga practitioners by providing pose recognition, feedback, and suggestions for improvement.
+            </p>
+        </div>
+
+<div class="project-item">
+    <img class="logo" src="sleep.png" alt="Fetal Brain Segmentation" style="width: 400px; height: auto; border-radius: 10px;">
+    <div class="project-title">
+        <strong>Sleep Stage Classification</strong>
+        <a href="https://github.com/atharvapatil000/Sleep-Stage-Classification" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">GitHub</a>
+    </div>
+</div>
+            <p>
+This project was completed as part of the Wearable Electronics course under Prof. Sushmee Badhulika, where the goal was to develop an accurate sleep stage classification model using Polysomnography (PSG) data, including EEG, EOG, and EMG signals. I designed a Dual-CNN Bi-LSTM model with an attention mechanism to classify sleep stages. The model uses Convolutional Neural Networks (CNNs) for spatial feature extraction, allowing it to capture important patterns from the raw time-series signals. These extracted features are then processed through a Bi-directional Long Short-Term Memory (Bi-LSTM) network to capture the temporal dependencies in the signals across different time intervals. The attention mechanism helps the model focus on the most relevant parts of the signals, improving classification accuracy. For data preprocessing, I used MNE and PyEDFLib libraries to extract and preprocess the raw PSG data. This included cleaning the signals by removing noise and artifacts, normalizing them for consistency, and extracting features such as power spectral density and frequency bands (delta, theta, alpha, and beta) from the EEG signals. I also annotated the sleep stages with hypnogram labels to ensure proper alignment with the signal data. To evaluate the model’s performance, I used Stratified K-Fold cross-validation, ensuring that each fold maintained the proportion of each sleep stage, and implemented early stopping to prevent overfitting. Additionally, learning rate scheduling was used to optimize the training process. The model achieved an impressive 92% accuracy in classifying the sleep stages, demonstrating its effectiveness in distinguishing between different stages of sleep. This model shows potential for use in wearable devices to monitor and analyze sleep patterns, providing valuable insights into sleep quality.
+
+
+            </p>
+        </div>
+<div class="project-item">
+    <img class="logo" src="hyb.png" alt="Fetal Brain Segmentation" style="width: 300px; height: auto; border-radius: 10px;">
+    <div class="project-title">
+        <strong>Hybrid Deep Learning-Based Iterative Method for CT Imaging Reconstruction</strong>
+        <a href="https://github.com/atharvapatil000/Deep_Learning_Iterative_Recon" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">GitHub</a>
+    </div>
+</div>
+
+            <p>
+
+This project addresses the challenges of reconstructing high-quality Head CT images by combining traditional iterative methods with modern deep learning techniques. Computed Tomography (CT) imaging is crucial for diagnosing head-related conditions, including trauma and tumors, but the reconstruction of cross-sectional images from the collected projection data (sinograms) can be affected by noise, limited projection angles, and insufficient data in low-dose scans. The project implements a Maximum Likelihood Expectation Maximization (MLEM) algorithm to iteratively refine CT images, improving image quality by maximizing the likelihood of the observed sinogram data. This method, however, is often prone to artifacts and noise, especially in low-dose imaging, which motivated the integration of a deep learning-based refinement to the process.
+
+The reconstruction begins by generating a system matrix, which models the relationship between the image pixels and the sinogram bins. This matrix is crucial for simulating the projection process, where the forward projection calculates the contributions of each image pixel to the sinogram bins across multiple projection angles. The system matrix is created using a function that maps image pixel locations to corresponding sinogram bins, taking into account the geometry of the CT scanner. For each image pixel, its contribution to the sinogram is computed using trigonometric functions that project the pixel onto the detector at different angles. The generated system matrix is then used to compute the sinogram from an initial image estimate by performing a matrix multiplication operation in the forward projection function.
+
+Once the sinogram is generated, the backward projection step is used to reconstruct the image. This process involves multiplying the sinogram by the transpose of the system matrix, effectively mapping the measured projection data back into the image space. The reconstructed image is then refined using the MLEM algorithm by iterating between the forward and backward projections, improving the image estimate at each step.
+
+To further enhance the quality of the reconstructed image and remove artifacts, a deep learning refinement stage is incorporated. This stage uses a hybrid neural network architecture that includes Convolutional Neural Networks (CNNs) for feature extraction and an Attention Mechanism to focus on key regions of the image, such as edges and boundaries of anatomical structures. The attention mechanism uses query, key, and value projections to calculate spatial attention weights that highlight the most important areas for reconstruction. This is combined with residual connections to preserve the original image features while refining specific areas, allowing the network to improve image sharpness and detail.
+
+By integrating these two techniques, the project effectively combines the data fidelity of MLEM with the noise-reducing and artifact-correcting power of deep learning.
+            </p>
+        </div>
+      <div class="project-item">
+            <img class="logo" src="oct.png" alt="Yoga Pose Recognition">
+            <div class="project-title">
+                <strong>Optical Coherence Tomography (OCT) Guided Spinal Anesthesia</strong>
+                <a href="https://github.com/atharvapatil000/Optical-Coherence-Tomography-Guided-Spinal-Anesthesia" target="_blank">GitHub</a>
+          </div>
+            <p>
+I worked as a RA under Prof. Renu John on a project aimed at improving the precision of spinal anesthesia delivery during pregnancy, which also served as part of a coursework graded project. The main issue being addressed was the difficulty in accurately identifying the correct spinal region for anesthesia delivery, especially during pregnancy, where human anatomy can vary significantly between individuals. This variability often results in a trial-and-error method during needle insertion, which increases the risks of complications. To solve this problem, a group of PhD students in the lab had already developed a device that utilizes Optical Coherence Tomography (OCT) to capture high-resolution images of tissue layers during the needle insertion process. These images are acquired at regular intervals as the needle moves towards the targeted spinal region.
+
+Under the guidance of the team, I contributed to the integration of computer vision and deep learning into the existing OCT imaging system to improve the accuracy and efficiency of spinal anesthesia delivery. Specifically, I developed and implemented several deep learning models for multiclass tissue classification to differentiate between critical tissue types encountered during needle insertion, including fat, ligamentum flavum, spinal cord, and other relevant structures. I experimented with architectures such as ResNet50, InceptionV3, and Xception. These models were trained to identify and classify the anatomical layers seen in OCT images, allowing for better guidance of the needle during insertion.
+
+Furthermore, I worked on implementing regression models that could predict the distance between the needle tip and the dura mater, the protective membrane surrounding the spinal cord, in real time. By accurately estimating this distance, the system could provide feedback on the needle's precise position during insertion, significantly reducing the risk of damaging critical structures. This enabled precise inline movement of the needle, reducing the trial-and-error process that is typical in traditional spinal anesthesia delivery. The real-time data provided by the OCT system could be visualized and analyzed to ensure that the needle was always on the correct path.
+
+This integration of machine learning with OCT imaging enhances the precision and safety of spinal anesthesia procedures, offering a potentially transformative solution to minimize risks and improve patient outcomes, especially in sensitive cases like pregnancy. The project also aimed at providing more consistent and reproducible results, helping clinicians deliver anesthesia more confidently and efficiently.
+
+
+            </p>
+        </div>
+
+<div class="project-item">
+    <img class="logo" src="fetal.png" alt="Fetal Brain Segmentation" style="width: 700px; height: auto; border-radius: 10px;">
+    <div class="project-title">
+        <strong>Fetal Brain Segmentation</strong>
+        <a href="https://github.com/atharvapatil000/Fetal-Brain-Segmentation" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">GitHub</a>
+    </div>
+</div>
+
+            <p>
+For this personal project, I focused on developing an advanced deep learning model for fetal brain segmentation with the aim of accurately identifying and delineating various anatomical structures within fetal brain images. This task involved pixel-wise classification, where each pixel in the image was classified into one of several anatomical regions. I chose to implement a MobileNetV2-UNet hybrid architecture, which combined the efficiency of MobileNetV2 for feature extraction with the power of the UNet architecture for segmentation. The MobileNetV2 backbone provided efficient feature extraction with reduced computational complexity, making it suitable for medical imaging tasks, while the UNet’s encoder-decoder structure helped improve the resolution and localization accuracy of the segmentation.
+
+The primary goal of this project was to segment crucial structures such as the Cavum Septum Pellucidum (CSP) and the choroid plexus, which are small but significant regions in the fetal brain. These structures play vital roles in brain development, and accurate segmentation is important for detecting potential abnormalities. However, these regions are often underrepresented in the dataset, leading to class imbalance in the segmentation task. To mitigate this, I employed inverse class weighting during model training. This technique assigns higher weights to less frequent but important classes, which forces the model to focus more on accurate segmentation of smaller, critical regions like the CSP and choroid plexus, thus improving the overall performance for these challenging regions.
+
+During model evaluation, I used the Dice coefficient—a metric commonly used for image segmentation tasks, especially in medical imaging. The Dice score measures the overlap between the predicted segmentation and the ground truth, with a higher score indicating better segmentation performance. My model achieved a remarkable average Dice score of 0.98 for larger structures and a score of 0.81 for smaller structures like the CSP and choroid plexus. These results demonstrate the model's ability to precisely segment both major and minor anatomical regions, even in the presence of class imbalance.
+
+            </p>
+        </div>
+
+
+
+
+<div class="project-item">
+    <img class="logo" src="plag.png" alt="Fetal Brain Segmentation" style="width: 500px; height: auto; border-radius: 10px;">
+    <div class="project-title">
+        <strong>Plagiarism Verification</strong>
+        <a href="https://github.com/atharvapatil000/Plagiarism-Verification" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">GitHub</a>
+    </div>
+</div>
+In this personal project, I focused on leveraging large language models (LLMs) such as GPT-3.5 and Llama-2 for content generation and implemented web scraping techniques to verify content originality. The goal of this project was to build a system capable of detecting plagiarism by comparing newly generated or sourced content against existing online articles and sources.
+
+I began by utilizing the pynytimes API to scrape data from news websites and used Selenium to automate the extraction of web content. To clean and standardize the scraped articles for further analysis, I employed Spacy, a natural language processing library, to preprocess the text, removing noise and ensuring consistency across various sources. This preprocessing step was crucial for ensuring that the content could be effectively compared across different platforms and formats.
+
+To evaluate the originality of the content, I implemented a range of text comparison techniques. These included TF-IDF (Term Frequency-Inverse Document Frequency) to capture the importance of terms in a document relative to a corpus, Levenshtein distance for measuring the minimum number of edits required to transform one string into another, and fuzzy matching to identify similar patterns in text, even if they are not identical. Additionally, I explored embedding-based comparison techniques, where I used pre-trained embeddings from models like GPT-3.5 to create vector representations of the text and then measured their similarity using cosine similarity. This approach allowed for a more nuanced understanding of text similarity, capturing semantic similarities beyond simple word-level matching.
+
+            </p>
+        </div>
+
+<div class="project-item">
+    <img class="logo" src="app.jpg" alt="Fetal Brain Segmentation" style="width: 400px; height: 230px; border-radius: 10px;">
+    <div class="project-title">
+        <strong>Innsæi - A College Community App</strong>
+        <a href="https://github.com/atharvapatil000/yoga-pose" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">GitHub</a>
+    </div>
+</div>
+During the second year of my Bachelor's, I developed the Innsæi app, a college community platform designed to streamline various student activities and services. The app, developed as part of an initiative by ISA-VESIT, garnered over 400+ downloads on the Google Play Store upon its first release, indicating strong initial adoption among the student body.
+
+The Innsæi app incorporated several key features aimed at improving campus life. These included a workshop registration system, where students could easily register for events and workshops organized by the college, and an E-certificates generation feature that automatically issued certificates for participation. The app also integrated a college calendar to keep students informed about important academic and extracurricular events. To support collaborative learning, I developed a doubt-solving section where students could post questions and get answers from peers or faculty members. Additionally, I implemented a hardware inventory rental system, allowing students to rent equipment for their projects, and a 3D printing design upload section, enabling students to share and download 3D models. The app also featured developer pages for students involved in app development, encouraging collaboration and the sharing of ideas within the student community.
+
+As part of the project, I led a team consisting of 2 senior developers and 5 junior developers to enhance the app's UI/UX design for its next version. Using Flutter, we focused on creating a more user-friendly and visually appealing interface, improving the overall user experience and functionality of the app. My role involved coordinating the team, managing the development process, and ensuring that the app's features were integrated smoothly.
+
+            </p>
+        </div>
+
+          </div>
+
+      <div class="project-item">
+            <img class="logo" src="diabetic.png" alt="Yoga Pose Recognition">
+            <div class="project-title">
+                <strong>Diabetic Retinopathy Using Optical Device</strong>
+                <a href="https://github.com/atharvapatil000/Diabetic_retinopathy_Project_2022/blob/main/diabetic_retinpathy_2022.py" target="_blank">GitHub</a>
+          </div>
+            <p>
+
+For my B.E. thesis, guided by Prof. Sangeetha Prassana from the Instrumentation Engineering Department, I focused on the early detection of Diabetic Retinopathy (DR) using an optical device. Diabetic Retinopathy is a major complication of diabetes and one of the leading causes of blindness, making early detection critical for effective treatment.
+
+The project involved binary and multiclass classification of a Diabetic Retinopathy dataset provided by the Aditya Jyot Foundation, which contained retinal images of patients with varying degrees of DR. My approach began with image processing techniques to extract the contours of regions of interest (ROIs), such as blood vessels, exudates, and hemorrhages, which are key indicators of diabetic retinopathy. To enhance the quality of the images and ensure more accurate feature extraction, I applied Gaussian blur, which helped in reducing noise and preserving the important features of the retinal images.
+
+To improve model performance, I also converted the extracted image features into ordinal and categorical variables, which allowed for better classification. The binary classification identified whether diabetic retinopathy was present or not, while the multiclass classification categorized the severity of the condition into different stages, from no DR to advanced stages.
+
+A key aspect of the project was ensuring that the camera was properly aligned with the patient's eye for accurate image acquisition. To address this, I designed a 3D-printed headset that held the camera at the optimal distance and angle from the eye, ensuring consistent and accurate retinal imaging for every patient. This hardware component played a crucial role in maintaining the precision of the imaging process, which was essential for reliable diagnosis.
+
+Through this project, I gained valuable experience in image processing, machine learning, and medical device design, particularly in the context of medical imaging for disease detection. The system developed as part of this research has the potential to significantly improve the speed and accuracy of diabetic retinopathy screening, which can aid in early intervention and prevent vision loss for millions of patients.
+            </p>
+        </div>
+
+     <div class="project-item">
+            <img class="logo" src="anom.png" alt="Yoga Pose Recognition">
+            <div class="project-title">
+                <strong>Anomaly Detection Using Ballistocardiogram (BCG) Data</strong>
+                <a href="https://github.com/atharvapatil000/Anomaly-Detection-Using-BCG-Data" target="_blank">GitHub</a>
+          </div>
+            <p>
+
+As part of a freelance project for an IIT Bombay startup, I developed a non-invasive Ballistocardiogram (BCG) system to monitor body movements and detect anomalies in vital parameters. The system aimed to provide real-time insights into cardiovascular and respiratory activity, offering a cost-effective and non-invasive solution for healthcare monitoring.
+
+The project centered around implementing an LSTM (Long Short-Term Memory) model for real-time interpretation of BCG signals. This model was particularly well-suited for the sequential nature of BCG data, as it could capture long-term dependencies and subtle variations in the signal patterns. The model was trained to identify and flag anomalies that might indicate irregularities in vital signs.
+
+Initially, I explored traditional signal processing techniques such as Fast Fourier Transform (FFT) and Butterworth filtering to preprocess the BCG data by isolating relevant frequencies and removing noise. However, these approaches were not effective in dealing with the complexity and variability of the BCG signals, as they struggled to retain the critical time-domain information required for accurate anomaly detection. Recognizing these limitations, I shifted focus to directly leveraging raw time-series data as input to the LSTM model, allowing it to learn the signal features autonomously.
+
+Despite challenges related to limited data availability, I utilized data augmentation techniques to increase the training dataset and fine-tuned the model for improved generalization. The result was a robust BCG monitoring system capable of detecting anomalies in vital signs with high reliability, demonstrating the power of deep learning in handling complex physiological signals.
+            </p>
+        </div>
+
+
+<div class="project-item">
+    <img class="logo" src="Hom.jpg" alt="Fetal Brain Segmentation" style="width: 400px; height: auto; border-radius: 10px;">
+    <div class="project-title">
+        <strong>Homography-based Augmentation</strong>
+        <a href="https://github.com/atharvapatil000/Image-Augmentation-using-OpenCV-Python/blob/main/Image-Augmentation.py" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">GitHub</a>
+    </div>
+</div>
+This project focused on leveraging homography transformations for seamless image augmentation, enabling precise overlay of one image onto another based on feature matching and geometric alignment.
+
+To achieve this, I first extracted key points and descriptors from input images using OpenCV ORB (Oriented FAST and Rotated BRIEF) and BEBLID (Binary Embedding of Learned Image Descriptors) detectors. These algorithms were chosen for their efficiency and robustness in handling variations in scale, rotation, and illumination. The extracted features were then matched using a brute-force matcher, with the matches further refined based on Hamming distance to ensure the selection of high-quality feature correspondences.
+
+Once significant matches were established, I computed the homography matrix to estimate the geometric transformation between the input and augmentation images. This matrix was then applied to align the augmentation image with the perspective of the input image, ensuring a seamless overlay. The process required careful handling of outliers and noise, which were addressed using techniques like RANSAC (Random Sample Consensus) to enhance the reliability of the transformation.
+            </p>
+        </div>
+
+
+<div class="project-item">
+    <img class="logo" src="ping-pong.jpg" alt="Fetal Brain Segmentation" style="width: 500px; height: auto; border-radius: 10px;">
+    <div class="project-title">
+        <strong>Hand Gesture Controlled Ping Pong</strong>
+        <a href="https://github.com/atharvapatil000/Hand-Gesture-Controlled-Ping-Pong-game" target="_blank" style="text-decoration: none; color: #007bff; font-weight: bold;">GitHub</a>
+    </div>
+</div>
+During the third year of my Bachelor's, I organized and conducted a one-day workshop on Image Processing to introduce participants to fundamental concepts through an engaging and practical project. The highlight of the workshop was a real-time hand gesture-controlled ping pong game, where players could control the paddle using finger gestures detected via a webcam. The project served as a fun and interactive way to demonstrate the practical applications of image processing techniques.
+
+Participants were guided through essential concepts such as image filtering, where smoothing and edge-detection filters were applied to enhance the video feed and prepare it for further processing. They also learned about thresholding techniques to convert images into binary formats, making it easier to isolate the hand from the background. I introduced contour detection to identify the hand's shape and position within the frame. To refine the gesture recognition process, I used convex hull and convexity defect algorithms to detect finger points and distinguish between different gestures.
+
+By mapping the recognized gestures to paddle movements in the ping pong game, participants could see the immediate impact of the techniques they learned, making the session both educational and entertaining. This project not only reinforced participants' understanding of image processing concepts but also highlighted their real-world applications in interactive systems. Conducting this workshop allowed me to refine my skills in teaching and implementing real-time computer vision solutions, making it a rewarding and enriching experience.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Table Tennis</li>
+            <li>Swimming</li>
+            <li>Cricket</li>
+            <li>Reading History</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Atharva Patil. All Rights Reserved. 
+            <a href="https://github.com/atharvapatil000">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
